@@ -1,0 +1,365 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#fff;
+    color:#333;
+    line-height:1.6;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+.navbar{
+    padding:15px 0;
+}
+
+.navbar-brand{
+    font-size:30px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.nav-link{
+    font-weight:500;
+    margin:0 10px;
+}
+
+.nav-link:hover{
+    color:#000;
+}
+
+.navbar i{
+    font-size:20px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.navbar i:hover{
+    color:#0d6efd;
+}
+
+.form-control{
+    border-radius:30px;
+}
+
+
+.hero{
+    position:relative;
+}
+
+.hero-img{
+    width:100%;
+    height:90vh;
+    object-fit:cover;
+}
+
+.hero-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:white;
+}
+
+.hero-content h5{
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+.hero-content h1{
+    font-size:65px;
+    font-weight:700;
+    margin:20px 0;
+}
+
+.hero-content p{
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.hero .btn{
+    padding:12px 28px;
+    margin:5px;
+}
+
+
+
+section h2{
+    font-size:40px;
+    font-weight:700;
+}
+
+
+
+.category-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.category-card img{
+    height:260px;
+    width:100%;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.category-card:hover img{
+    transform:scale(1.08);
+}
+
+.category-card h4{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    color:#fff;
+    font-weight:600;
+}
+
+
+.card{
+    border:none;
+    border-radius:12px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.card-img-top{
+    height:300px;
+    object-fit:cover;
+}
+
+.card-body h5{
+    font-weight:600;
+}
+
+.card-body del{
+    color:#999;
+    margin-right:8px;
+}
+
+.card-body span{
+    font-size:18px;
+}
+
+.text-warning{
+    font-size:18px;
+    letter-spacing:2px;
+}
+
+.card .btn{
+    width:100%;
+}
+
+
+
+.newsletter{
+    background:#f8f9fa;
+}
+
+.newsletter h2{
+    font-weight:700;
+}
+
+.newsletter p{
+    color:#666;
+}
+
+.newsletter input{
+    height:50px;
+}
+
+.newsletter button{
+    height:50px;
+    padding:0 25px;
+}
+
+
+.footer{
+    background:#6dc5c8;
+    color:white;
+}
+
+.footer h5{
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+.footer p,
+.footer li{
+    color:#322d2d;
+    font-size:15px;
+}
+
+.footer ul{
+    padding-left:0;
+}
+
+.footer li{
+    list-style:none;
+    margin-bottom:10px;
+}
+
+.footer a{
+    color:#3f3b3b;
+    text-decoration:none;
+}
+
+.footer a:hover{
+    color:rgb(55, 51, 51);
+}
+
+.footer i{
+    font-size:22px;
+    margin-right:15px;
+    cursor:pointer;
+}
+
+.footer hr{
+    border-color:#343030;
+}
+
+.footer .text-center{
+    color:#121111;
+}
+
+
+
+.btn-dark{
+    background:#000;
+    border:none;
+}
+
+.btn-dark:hover{
+    background:#222;
+}
+
+.btn-outline-light:hover{
+    color:#000;
+}
+
+
+
+@media(max-width:991px){
+
+.navbar-brand{
+    font-size:26px;
+}
+
+.hero-img{
+    height:70vh;
+}
+
+.hero-content h1{
+    font-size:45px;
+}
+
+.hero-content p{
+    font-size:16px;
+}
+
+.category-card img{
+    height:220px;
+}
+
+.card-img-top{
+    height:250px;
+}
+
+.footer{
+    text-align:center;
+}
+
+.footer .col-md-3{
+    margin-bottom:30px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero-img{
+    height:60vh;
+}
+
+.hero-content h1{
+    font-size:36px;
+}
+
+.hero-content h5{
+    font-size:14px;
+}
+
+.hero-content p{
+    font-size:14px;
+}
+
+section h2{
+    font-size:30px;
+}
+
+.card-img-top{
+    height:220px;
+}
+
+.newsletter input{
+    margin-bottom:15px;
+}
+
+}
+
+@media(max-width:576px){
+
+.hero-img{
+    height:50vh;
+}
+
+.hero-content h1{
+    font-size:28px;
+}
+
+.hero-content p{
+    font-size:13px;
+}
+
+.hero .btn{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.navbar form{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.card-img-top{
+    height:200px;
+}
+
+.category-card img{
+    height:180px;
+}
+
+section{
+    padding:50px 0;
+}
+
+}
