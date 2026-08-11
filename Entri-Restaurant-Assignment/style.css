@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: black;
+     */
+       /* line-height:1.6; */
+       background-color:#000;
+}
+
+header {
+    /* background-color: black;
+     */
+     background-color:#000;
+    color: white;
+    padding: 10px;
+    display: flex;
+       /* font-style: italic; */
+     font-family: "Montenegrin Gothic One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+   margin: 0;
+
+}
+.caption{
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: rgb(196, 120, 27);
+    font-style: italic;
+    letter-spacing: 1px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  
+    flex-direction: row;
+    /* margin-left: 200px; */
+    padding-left: 800px;
+   font-style: italic;
+       margin-top: 15px;
+       font-weight: bold;
+        
+}
+a{
+  text-decoration:none;
+    color: rgb(196, 120, 27);
+    /* display: flex;
+    justify-content: center; */
+    transition: 0.5s ease-in-out;
+    font-size: medium;
+        &:hover{
+color: rgb(248, 246, 246);
+        border-radius: 30px;
+        align-items: center;
+        padding-bottom: 4px;
+
+     
+    }
+    
+}
+#menu{
+    color: rgb(196, 120, 27);
+    /* font-family: "Montenegrin Gothic One", serif; */
+    
+}
+section{
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+}
+.card{
+    /* border: 2px solid wheat; */
+    width:400px;
+    height: 150px;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: rgba(154, 147, 147, 0.35) 0px -50px 36px -28px inset;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(222, 230, 214, 0.3) 0px 18px 36px -18px inset; */
+    position: relative;
+    border: 1px solid #000;
+}
+
+.dish{
+   padding-left: 700px ;
+   font-family: "Montenegrin Gothic One", serif;
+   transition: 0.5s ease-in-out;
+           &:hover{
+          color: rgb(248, 246, 246);
+           }
+           position: relative;
+}
+.dish1{
+       padding-left: 660px ;
+       font-family: "Montenegrin Gothic One", serif;
+       
+       transition: 0.5s ease-in-out;
+           &:hover{
+          color: rgb(248, 246, 246);
+           }
+                 position: relative;
+}
+.dish2{
+       padding-left: 680px ;
+       font-family: "Montenegrin Gothic One", serif;
+       transition: 0.5s ease-in-out;
+           &:hover{
+          color: rgb(248, 246, 246);
+           }
+                 position: relative;
+}
+.items{
+    padding-left: 130px;
+    font-weight:900;
+}
+.card{
+    p{
+            padding-left: 108px;
+
+    }
+    span{
+        padding-left: 178px;
+        color: rgb(196, 120, 27);
+        font-weight: bold;
+        
+    }
+
+
+
+}
+.items-2{
+    padding-left: 130px;
+    font-weight:900;
+}
+.items-3{
+    padding-left: 130px;
+    font-weight:900;
+}
+.items-4{
+    padding-left: 130px;
+    font-weight:900;
+}
+.items-5{
+    padding-left: 130px;
+    font-weight:900;
+}
+.items-6{
+    padding-left: 130px;
+    font-weight:900;
+}
+.items-7{
+    padding-left: 130px;
+    font-weight:900;
+}
+#about{
+
+    /* color: azure; */
+        display: flex;
+        position: absolute;
+        font-size: xx-large;
+        padding-left: 90px;
+        margin-top: 50px;
+         color: rgb(196, 120, 27);
+    
+}
+.details{
+    color: aliceblue;
+         padding-left: 100px;
+        margin-top: 120px;
+        font-size: medium;
+        font-style: italic;
+        
+}
+#contact{
+    color: rgb(194, 194, 179);
+    background-color: rgb(52, 49, 44);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
