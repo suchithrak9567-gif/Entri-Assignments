@@ -1,0 +1,137 @@
+[
+{
+"id": 1,
+"name": "Wireless Headphones",
+"category": "Electronics",
+"price": 2499,
+"originalPrice": 3499,
+"rating": 4.5,
+"imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500"
+},
+{
+"id": 2,
+"name": "Smart Watch",
+"category": "Electronics",
+"price": 3999,
+"originalPrice": 5499,
+"rating": 4.6,
+"imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500"
+},
+{
+"id": 3,
+"name": "Bluetooth Speaker",
+"category": "Electronics",
+"price": 1899,
+"originalPrice": 2499,
+"rating": 4.3,
+"imageUrl": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500"
+},
+{
+"id": 4,
+"name": "Men Casual Shirt",
+"category": "Clothing",
+"price": 1299,
+"originalPrice": 1799,
+"rating": 4.2,
+"imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+},
+{
+"id": 5,
+"name": "Women's Denim Jacket",
+"category": "Clothing",
+"price": 2199,
+"originalPrice": 2999,
+"rating": 4.7,
+"imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500"
+},
+{
+"id": 6,
+"name": "Classic T-Shirt",
+"category": "Clothing",
+"price": 799,
+"originalPrice": 1199,
+"rating": 4.1,
+"imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+},
+{
+"id": 7,
+"name": "Running Shoes",
+"category": "Footwear",
+"price": 2999,
+"originalPrice": 3999,
+"rating": 4.8,
+"imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
+},
+{
+"id": 8,
+"name": "Leather Sneakers",
+"category": "Footwear",
+"price": 3499,
+"originalPrice": 4499,
+"rating": 4.4,
+"imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+},
+{
+"id": 9,
+"name": "Sports Sandals",
+"category": "Footwear",
+"price": 1499,
+"originalPrice": 1999,
+"rating": 4.0,
+"imageUrl": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=500"
+},
+{
+"id": 10,
+"name": "Atomic Habits",
+"category": "Books",
+"price": 499,
+"originalPrice": 699,
+"rating": 4.9,
+"imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500"
+},
+{
+"id": 11,
+"name": "The Psychology of Money",
+"category": "Books",
+"price": 599,
+"originalPrice": 799,
+"rating": 4.8,
+"imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500"
+},
+{
+"id": 12,
+"name": "Deep Work",
+"category": "Books",
+"price": 449,
+"originalPrice": 599,
+"rating": 4.6,
+"imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=500"
+},
+{
+"id": 13,
+"name": "Gaming Mouse",
+"category": "Electronics",
+"price": 1599,
+"originalPrice": 2299,
+"rating": 4.5,
+"imageUrl": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500"
+},
+{
+"id": 14,
+"name": "Cotton Hoodie",
+"category": "Clothing",
+"price": 1799,
+"originalPrice": 2499,
+"rating": 4.4,
+"imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+},
+{
+"id": 15,
+"name": "Casual Loafers",
+"category": "Footwear",
+"price": 2699,
+"originalPrice": 3499,
+"rating": 4.3,
+"imageUrl": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=500"
+}
+]

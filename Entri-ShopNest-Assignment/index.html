@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNest - E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- Header -->
+<header>
+    <div class="logo">Shop<span>Nest</span></div>
+
+    <div class="search-container">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products..."
+        >
+    </div>
+
+    <button class="cart-header-btn" id="cartToggle">
+        🛒 Cart
+        <span id="cartCount">0</span>
+    </button>
+</header>
+
+
+<!-- Main Content -->
+<main>
+
+    <section class="hero">
+        <h1>Discover Amazing Products</h1>
+        <p>Shop smarter. Live better.</p>
+    </section>
+
+
+    <!-- Category Filters -->
+    <section class="filters">
+        <button class="filter-btn active" data-category="All">All</button>
+        <button class="filter-btn" data-category="Electronics">Electronics</button>
+        <button class="filter-btn" data-category="Clothing">Clothing</button>
+        <button class="filter-btn" data-category="Footwear">Footwear</button>
+        <button class="filter-btn" data-category="Books">Books</button>
+    </section>
+
+
+    <!-- Products -->
+    <section>
+        <h2 class="section-title">Featured Products</h2>
+
+        <div id="productsContainer" class="products-grid"></div>
+
+        <div id="noProducts" class="no-products">
+            <h2>No products found 😔</h2>
+            <p>Try searching for something else.</p>
+        </div>
+    </section>
+
+</main>
+
+
+<!-- Cart Sidebar -->
+<aside id="cartSidebar" class="cart-sidebar">
+
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button id="closeCart" class="close-btn">&times;</button>
+    </div>
+
+    <div id="cartItems" class="cart-items"></div>
+
+    <div class="cart-footer">
+        <div class="total">
+            <span>Total:</span>
+            <strong id="cartTotal">₹0</strong>
+        </div>
+
+        <button class="checkout-btn">Checkout</button>
+    </div>
+
+</aside>
+
+
+<!-- Overlay -->
+<div id="overlay" class="overlay"></div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
