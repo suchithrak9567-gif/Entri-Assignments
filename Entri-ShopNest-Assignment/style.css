@@ -124,7 +124,21 @@ border-color: #6c63ff;
 /* Products */
 
 .section-title {
-margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 15px;
+}
+
+.section-title h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #f8fafc;
+}
+
+.section-title span {
+  color: #94a3b8;
+  font-size: 14px;
 }
 
 .products-grid {
